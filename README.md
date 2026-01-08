@@ -30,7 +30,6 @@ Certifique-se de ter o **Java (JDK)** e o **Maven** instalados em sua máquina.
     ```
 4.  Ou, se estiver usando o **IntelliJ IDEA**:
     * Abra o projeto.
-    * Aguarde o Maven baixar as dependências.
     * Localize a classe `PatrimonioApiApplication` e clique no botão **Run** (Play verde).
 
 O servidor iniciará na porta **8080**.

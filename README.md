@@ -2,7 +2,7 @@
 
 API RESTful desenvolvida em Java com Spring Boot para gerenciamento de equipamentos e ativos patrimoniais. O sistema permite cadastrar, listar, atualizar e excluir equipamentos, com validações de negócio para evitar duplicidade de números de série.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Java** (ou versão superior)
 * **Spring Boot**
@@ -10,7 +10,7 @@ API RESTful desenvolvida em Java com Spring Boot para gerenciamento de equipamen
 * **H2 Database** (Banco de dados em memória)
 * **Maven** (Gerenciador de dependências)
 
-## 🛠️ Como Executar o Projeto
+##  Como Executar o Projeto
 
 ### Pré-requisitos
 Certifique-se de ter o **Java (JDK)** e o **Maven** instalados em sua máquina.
@@ -61,10 +61,11 @@ Para cadastrar (**POST**) ou atualizar (**PUT**), utilize este formato:
   "dataAquisicao": "08/01/2026",
   "status": "ativo"
 }
-
+```
 ##  Acessando o Banco (H2)
 Acesse: http://localhost:8080/h2-console
 
 URL JDBC: jdbc:h2:mem:db
 
 Usuário: nerds / Senha: (vazio)
+

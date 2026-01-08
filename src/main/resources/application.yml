@@ -1,0 +1,16 @@
+spring:
+  dataSource:
+    url: jdbc:h2:mem:db
+    driver-class-name: org.h2.Driver
+    username: nerds
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  flyway:
+    enabled: true
